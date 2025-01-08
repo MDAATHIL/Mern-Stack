@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>Responsive Media page</title>
+        <style>
+            header{
+                text-align:center;
+                padding:50px 22px;
+                background:linear-gradient(120deg,#161616);
+
+            }
+            
+            body{
+                font-family:Arial, Helvetica, sans-serif;
+                line-height:1.5;
+                background:linear-gradient(120deg,#fcfc,#16213e);
+            }
+
+            header{
+                text-align:center;
+                padding:50px 22px;
+                background:linear-gradient(120deg,black);
+            }
+            
+            header h1{
+                font-size:3rem;
+                color:rgb(21, 26, 86);
+                margin-bottom:35 px;
+            }
+
+            header P{
+                font-size:2rem;
+                margin-bottom:30px;
+            }
+
+            header .mda{
+                background:#eae4e4;
+                color:#83252500;
+                padding:12px 28px;
+                text-decoration:none;
+                font-size:1.3rem;
+                border-radius:35px;
+                transition:transform 0.5s,box-shadow 0.5s;
+
+            }
+
+            header .mda:hover{
+                transform:translateY(-6px);
+                box-shadow:0 10px 20px rgb(232, 61, 61);
+            }
+
+            .grid-view{
+                display:grid;
+                grid-template-columns:repeat(3,1fr);
+                gap:250px;
+                padding:50px 30px;
+                justify-content:center;
+                max-width:1150px;
+            }
+
+            .grid{
+                background:rgb(180, 31, 203);
+                border-radius:18px;
+                padding:18px;
+                text-align:center;
+
+            }
+
+            .grid-view:hover{
+                transform:translateY(-7px);
+                box-shadow:0 12px 25px rgb(74, 71, 71) ;
+            }
+
+            .grid h2{
+                font-size:1.7rem;
+                margin-bottom:18px;
+                color:#0c0c0c;
+            }
+
+            .grid p{
+                font-size:1rem;
+                color:rgba(23, 17, 112, 0.836)
+            }
+
+            footer{
+                text-align:center;
+                padding:20px;
+                background:#1f03f9;
+                color:white;
+                font-weight:blod;
+            }
+
+            @media(max-width:1150px)
+            {
+                .grid-view{
+                    grid-template-columns:repeat(2,0.8fr);
+                }
+
+                header h1{
+                    font-size:2.5rem;
+    
+                }
+
+                header p{
+                    font-size:2rem;
+                }
+            }
+            
+
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Landing Paage</h1>
+            <p>Here we Expericence the Responsive Design</p>
+            <a href="https://music.youtube.com/" class="mda">Let's Start</a>
+
+        </header>
+
+        <section class="grid-view">
+            <div class="grid">
+                <h2>Discover the page</h2>
+                <p>Here the page the page that redirect to the next step in your life </p>
+            </div>
+
+            <div class="grid">
+                <h2>Discover the S3c0nd 0ption </h2>
+                <p>Expericence this wounder full page and get the benifits</p>
+            </div>
+
+            <div class="grid">
+                <h2>Discover the 7hird 0p7ion</h2>
+                <p>The user is l00king for flag  in this page!!!!!!!!!!!!</p>
+            </div>
+
+            <div class="grid">
+                <h2>Discover the 4ourth 0ption</h2>
+                <p>-----Searching for the 4lag</p>
+            </div>
+
+
+            <div class="grid">
+                <h2>Discover the fifth Option </h2>
+                <p>We were just kids when we fell in love,not knowin' what it was i will not give you up this time oh darling...........</p>
+            </div>
+
+
+        </section>
+
+        <footer>
+            <p>@2025 is Responsible for this page</p>
+        </footer>
+
+    </body>
+</html>
