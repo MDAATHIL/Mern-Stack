@@ -1,0 +1,50 @@
+
+<html>
+    <head>
+        <style>
+            #tag1{
+                font-family: 'Times New Roman', Times, serif;
+                background-color: rgb(181, 231, 162);
+                font-size:larger;
+            }
+            .marquee{
+                overflow:hidden;
+                white-space:nowrap;
+                box-sizing: border-box;
+                animation:marquee 10s  linear infinite;
+            }
+            @keyframes marquee{
+                from{
+                    transform:translateX(100%);
+                }
+                to{
+                    transform:translateX(-100%);
+                }
+            }
+
+            #tag2:hover{
+                color:rgb(40, 13, 96);
+            }
+            
+           
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="marquee">
+            <marque><center><h1>Simple Design Using JS</h1></center></marque>
+            <h1>using JS</h1>
+        </div>
+        <p id="tag1">hello Every one</p>
+        <p id="tag2">It is time to leave</p>
+        <script>
+            document.getElementById("tag1").style.color="red";
+            document.getElementById("tag1").style.fontFamily='Lucida Sans';
+            document.getElementById("tag2").style.color="black";
+            document.getElementById("tag2").style.fontSize="30px";
+
+        </script>
+    </body>
+</html>
